@@ -46,9 +46,50 @@ h2 {
     font-weight: 500;
 }
 
+.button-design {
+    border: hidden;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: gray;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#red-btn {
+    border: 2px solid red;
+    background-color: pink;
+    color: red;
+}
+
 .flexible {
     display: flex;
     margin-bottom: 200px;
+}
+
+.box-design {
+    border: hidden;
+    margin: 15px;
+    padding: 25px;
+}
+
+#foodcolor {
+    background-color: aliceblue;
+}
+
+#sheltercolor {
+    background-color: antiquewhite;
+}
+
+#educationcolor {
+    background-color: bisque;
+}
+
+.mailbox {
+    background-color: bisque;
+    border: hidden;
+    padding: 50px;
+    margin: 20px;
 }
 
 footer {
@@ -63,12 +104,14 @@ footer h4 {
     color: tomato;
 }
 
-button:active {
-    color: rgb(233, 20, 20) !important;
-    background: olive;
+.half_width {
+    width: 50%;
+    padding-left: 2%;
 }
 
-button:visited {
-    color: rgb(233, 20, 20) !important;
-    background: olive;
+#email {
+    border: hidden;
+    background-color: gray;
+    margin: 15px;
+    padding: 10px;
 }
