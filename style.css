@@ -113,11 +113,11 @@ footer h4 {
 
 #email {
     border: hidden;
-    background-color: gray;
-    margin: 15px;
+    background-color: white;
     padding: 10px;
 }
 
-#fadedtxt {
-    color: gray;
+#other {
+    border: none;
+    margin-top: 50px;
 }
